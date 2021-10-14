@@ -218,6 +218,11 @@ a.btn--radius {
   }
 }
 
+.tel {
+  height: 30px;
+  width: 30px;
+}
+
 h5 {
   line-height: 2rem;
 }
