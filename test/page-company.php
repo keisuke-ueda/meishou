@@ -49,7 +49,7 @@ Template Name: 会社情報
           </table>
         </div>
         <div class="col-md-6 d-flex justify-content-center">
-          <img src="img/company.jpg" alt="" width="80%" height="70%" />
+          <img src="<?php echo get_template_directory_uri();?>/img/company.jpg" alt="" width="80%" height="70%" />
         </div>
       </div>
     </main>
