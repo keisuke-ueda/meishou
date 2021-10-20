@@ -22,7 +22,7 @@
     <header>
       <div class="container">
         <div class="d-flex justify-content-center">
-          <a href="">
+          <a href="<?php bloginfo('url')?>/">
             <img src="<?php echo get_template_directory_uri();?>/img/logo1.png" alt="" width="200" height="150" />
           </a>
         </div>
@@ -44,35 +44,25 @@
           <ul class="navbar-nav">
             <li class="col-md-4 nav-item dropdown">
               <a
-                class="nav-link active dropdown-toggle text-center"
-                href="#"
+                class="nav-link active text-center"
+                href="<?php bloginfo('url')?>/company"
                 id="navbarDropdownMenuLink"
                 role="button"
-                data-bs-toggle="dropdown"
+                data-bs-toggle=""
               >
                 会社概要
               </a>
-              <ul class="col dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">デザインイメージ１</a></li>
-                <li><a class="dropdown-item" href="#">デザインイメージ２</a></li>
-                <li><a class="dropdown-item" href="#">デザインイメージ３</a></li>
-              </ul>
             </li>
             <li class="col-md-4 px-1 nav-item dropdown border-start">
-              <a
-                class="nav-link active dropdown-toggle text-center"
-                href="#"
+               <a
+                class="nav-link active text-center"
+                href="<?php bloginfo('url')?>/design"
                 id="navbarDropdownMenuLink"
                 role="button"
-                data-bs-toggle="dropdown"
+                data-bs-toggle=""
               >
                 デザインイメージ集
               </a>
-              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">デザインイメージ１</a></li>
-                <li><a class="dropdown-item" href="#">デザインイメージ２</a></li>
-                <li><a class="dropdown-item" href="#">デザインイメージ３</a></li>
-              </ul>
             </li>
             <li class="col-md-4 nav-item dropdown border-start">
               <a

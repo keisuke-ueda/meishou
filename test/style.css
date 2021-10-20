@@ -137,6 +137,12 @@ a.btn--radius {
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .contact_box {
+    width: 80%;
+  }
+}
+
 .company {
   width: 100%;
 }

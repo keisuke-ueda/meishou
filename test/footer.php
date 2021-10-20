@@ -17,7 +17,7 @@
             <p>お気軽にお問い合わせください</p>
           </div>
           <h1>090-4628-1074</h1>
-          <a href="" class="btn btn--dark btn--radius">メール送信フォームへ</a>
+          <a href="<?php bloginfo('url')?>/contact" class="btn btn--dark btn--radius">メール送信フォームへ</a>
         </div>
         <div class="mt-3 col-md-4 text-light text-center">
           <p>こちらから検索ください</p>
@@ -37,3 +37,28 @@
       crossorigin="anonymous"
     ></script>
     <?php wp_footer(); ?>
+    <!-- swiper設定用js -->
+<script>
+  let mySwiper = new Swiper('.post-slider', {
+    // デフォルトの設定
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 5,
+        loop: true
+      },
+      980: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        loop: true
+      }
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+</script>
