@@ -56,7 +56,7 @@
             <li class="col-md-4 px-1 nav-item dropdown border-start">
                <a
                 class="nav-link active text-center"
-                href="<?php bloginfo('url')?>/design"
+                href="<?php bloginfo('url')?>/designs"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle=""
