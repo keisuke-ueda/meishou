@@ -1,7 +1,7 @@
 <?php
 // デザイン集の投稿
 function create_post_design() {
-  $exampleSupports = [  // supports のパラメータを設定する配列（初期値だと title と editor のみ投稿画面で使える）
+  $exampleSupports = [  // supports のパラメータを設定する配列
     'title',  // 記事タイトル
     'editor',  // 記事本文
     'thumbnail',  // アイキャッチ画像
@@ -47,7 +47,7 @@ add_action('init', 'add_design_taxonomy');
 
 // トピックの投稿
 function create_post_topic() {
-  $exampleSupports = [  // supports のパラメータを設定する配列（初期値だと title と editor のみ投稿画面で使える）
+  $exampleSupports = [  // supports のパラメータを設定する配列
     'title',  // 記事タイトル
     'editor',  // 記事本文
     'thumbnail',  // アイキャッチ画像
@@ -78,7 +78,7 @@ function add_topic_taxonomy(){
             'public' => true, // 利用する場合はtrueにする
         )
     );
-    // デザイン集(タグ)
+    // トピック(タグ)
     register_taxonomy(
         'topics-tag', // 1.タクソノミーの名前
         'topics',     // 2.利用する投稿タイプ
@@ -91,4 +91,5 @@ function add_topic_taxonomy(){
 }
 add_action('init', 'add_topic_taxonomy');
 
+// サムネイル画像をカスタム投稿タイプに反映させる
 add_theme_support( 'post-thumbnails' );

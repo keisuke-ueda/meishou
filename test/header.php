@@ -50,7 +50,7 @@
                 role="button"
                 data-bs-toggle=""
               >
-                会社概要
+                会社情報
               </a>
             </li>
             <li class="col-md-4 px-1 nav-item dropdown border-start">
@@ -76,9 +76,9 @@
                 移転について
               </a>
               <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">・近距離移転</a></li>
-                <li><a class="dropdown-item" href="#">・中距離移転</a></li>
-                <li><a class="dropdown-item" href="#">・長距離移転</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/short_transfer">・近距離移転</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/middle_transfer">・中距離移転</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/long_transfer">・長距離移転</a></li>
               </ul>
             </li>
             <li class="col-md-3 nav-item dropdown border-start">
@@ -93,32 +93,26 @@
                 内装工事
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">・間仕切り工事</a></li>
-                <li><a class="dropdown-item" href="#">・弱電工事</a></li>
-                <li><a class="dropdown-item" href="#">・照明工事</a></li>
-                <li><a class="dropdown-item" href="#">・ネット工事</a></li>
-                <li><a class="dropdown-item" href="#">・床工事</a></li>
-                <li><a class="dropdown-item" href="#">・空調工事</a></li>
-                <li><a class="dropdown-item" href="#">・ブラインド工事</a></li>
-                <li><a class="dropdown-item" href="#">・エクステリア工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/partition">・間仕切り工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/weak_electric">・弱電工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/lighting">・照明工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/net">・ネット工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/floor">・床工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/air_conditioning">・空調工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/blind">・ブラインド工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/exterior">・エクステリア工事</a></li>
               </ul>
             </li>
-            <li class="col-md-3 nav-item dropdown border-start">
-              <a
-                class="nav-link active dropdown-toggle text-center"
-                href="#"
+               <li class="col-md-4 px-1 nav-item dropdown border-start">
+               <a
+                class="nav-link active text-center"
+                href="<?php bloginfo('url')?>/recovery_construction"
                 id="navbarDropdownMenuLink"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                data-bs-toggle=""
               >
-                現状回復工事
+                  現状回復工事
               </a>
-              <ul class="col dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">現状回復について</a></li>
-                <li><a class="dropdown-item" href="#"></a></li>
-                <li><a class="dropdown-item" href="#"></a></li>
-              </ul>
             </li>
             <li class="col-md-3 nav-item dropdown border-start">
               <a
@@ -132,9 +126,9 @@
                 家具販売
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">・オーダーメイド</a></li>
-                <li><a class="dropdown-item" href="#">・メーカー品</a></li>
-                <li><a class="dropdown-item" href="#">・格安家具</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/order_made">・オーダーメイド</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/maker_product">・メーカー品</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/special_price">・格安家具</a></li>
               </ul>
             </li>
           </ul>

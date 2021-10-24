@@ -13,7 +13,7 @@
                 <?php } ?>
             </div>
   <article class="article">
-    <h2 class="article-title text-center mt-3"><?php the_title(); ?></h2>
+    <h2 class="col-md-8 mx-auto text-center mt-3"><?php the_title(); ?></h2>
     <div class="article-content mt-3">
       <h5><?php the_content(); ?></h5>
     </div>
