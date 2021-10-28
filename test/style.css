@@ -2,10 +2,15 @@
 Theme Name:明彰
 */
 
-.logo {
-  font-family: "Hina Mincho", serif;
-  font-size: 400%;
-  color: aliceblue;
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 200px;
+    margin: auto;
+  }
+}
+
+.navbar-nav {
+  z-index: 100;
 }
 
 .carousel {
@@ -179,4 +184,17 @@ h5 {
 
 .list-group {
   list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_logo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
 }

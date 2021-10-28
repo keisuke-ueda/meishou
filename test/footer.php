@@ -1,9 +1,10 @@
-<footer class="container mt-5 pb-5 border-top">
+<footer class="container mt-5 pb-5 border-top animate__animated animate__zoomIn animate__delay-2s">
       <div class="row">
         <div class="mt-3 col-md-4 text-light bg-dark text-center">
           <h3>会社情報</h3>
 
           <div class="text-center">
+            <img src="<?php echo get_template_directory_uri();?>/img/logo1.png" alt="" width="150" height="100"  class="footer_logo"/>
             <p>〒132-0015</p>
             <p>東京都江戸川区西瑞ピュアホワイトB201 <br /></p>
           </div>
@@ -22,10 +23,7 @@
         <div class="mt-3 col-md-4 text-light text-center">
           <p>こちらから検索ください</p>
           <div class="input-group">
-            <input type="search" class="form-control me-2" placeholder="テキスト入力欄" />
-            <span class="input-group-btn">
-              <button type="button" class="btn btn-default">検索</button>
-            </span>
+           <?php get_search_form(); ?>
           </div>
         </div>
       </div>

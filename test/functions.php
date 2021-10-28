@@ -93,3 +93,12 @@ add_action('init', 'add_topic_taxonomy');
 
 // サムネイル画像をカスタム投稿タイプに反映させる
 add_theme_support( 'post-thumbnails' );
+
+/*【出力カスタマイズ】検索結果のタイトルをカスタマイズ */
+function wp_search_title($search_title){
+  if(is_search()){
+    $search_title = '「'.get_search_query().'」の検索結果';
+  }
+  return $search_title;
+}
+add_filter('wp_title','wp_search_title');

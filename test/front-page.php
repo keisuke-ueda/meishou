@@ -1,15 +1,17 @@
 <?php get_header(); ?>
 <?php
     $args = array (
-        'post_type'      => 'post', // 投稿タイプ
+        'post_type'      => 'topics', // 投稿タイプ
         'posts_per_page' => 3, // 取得する投稿数
+        'orderby'        => 'date', // 日付でソート
+        'order'          => 'DESC', // DESCで最新から表示、ASCで最古から表示
     );
     $myposts = get_posts($args);
     setup_postdata($myposts); //　グローバル変数$postを書き換え
 ?>
 <body>
-   <main class="container">
-      <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
+   <main class="container animate__animated animate__zoomIn animate__delay-2s">
+      <div id="carouselExampleInterval" class="carousel carousel-dark slide " data-bs-ride="carousel">
              <ol class="carousel-indicators">
                 <?php
                     for ($myposts = 0;$myposts < 3;$myposts++) {
@@ -25,7 +27,7 @@
              for ($myposts = 0; $myposts < 3; $myposts++) {
             if ($myposts == 0) {?>
             <div class="carousel-item active" data-bs-interval="5000">
-            <a href="<?php the_permalink();?>"<?php echo get_the_title();?>>
+            <a href="<?php the_permalink();?>"<?php echo the_title();?>>
             <?php if(has_post_thumbnail()) {?>
                 <?php the_post_thumbnail() ;?>
              <?php }else{ ?>

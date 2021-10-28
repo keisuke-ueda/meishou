@@ -6,7 +6,7 @@ Template Name: デザインページ
 
 <?php get_header(); ?>
     <main class="container mt-5">
-      <div class="row text-center text-light border-bottom border-2">
+      <div class="row text-center text-light border-bottom border-2 animate__animated animate__zoomInDown animate__delay-1s">
         <h1>デザインイメージ集</h1>
       </div>
 
@@ -25,12 +25,12 @@ Template Name: デザインページ
       if($myposts ) : foreach( $myposts  as $post ) : setup_postdata($post);
       ?>
           <a href="<?php the_permalink();?>" class="design">
-          <div class="row mt-5 pb-5 align-items-center border-bottom border-2">
+          <div class="row mt-5 pb-5 align-items-center border-bottom border-2 animate__animated animate__zoomIn animate__delay-2s">
             <div class="col-md-6">
               <h3 class="text-light text-center border-bottom"><?php the_title();?></h3>
               <h5 class="text-light"><?php the_excerpt();?></h5>
             </div>
-            <div class="col-md-6 d-flex justify-content-center border">
+            <div class="col-md-6 d-flex justify-content-center border ">
              <?php if(has_post_thumbnail()) {?>
                 <?php the_post_thumbnail() ;?>
              <?php }else{ ?>

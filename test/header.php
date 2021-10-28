@@ -15,13 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" />
+     <!-- Animate CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>HOME</title>
     <?php wp_head(); ?>
   </head>
   <body class="bg-dark">
     <header>
       <div class="container">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center animate__animated animate__slideInDown logo">
           <a href="<?php bloginfo('url')?>/">
             <img src="<?php echo get_template_directory_uri();?>/img/logo1.png" alt="" width="200" height="150" />
           </a>
@@ -41,8 +43,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav">
-            <li class="col-md-4 nav-item dropdown">
+          <ul class="navbar-nav animate__animated  animate__zoomIn animate__delay-1s">
+            <li class="col-md-4 nav-item dropdown ">
               <a
                 class="nav-link active text-center"
                 href="<?php bloginfo('url')?>/company"

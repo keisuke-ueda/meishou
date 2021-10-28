@@ -6,7 +6,7 @@ Template Name: 会社情報
 
 <?php get_header(); ?>
 
-    <main class="container mt-5">
+    <main class="container mt-5 animate__animated animate__zoomIn animate__delay-1s">
       <div class="row text-center text-light border-bottom border-2">
         <h1>代表挨拶</h1>
       </div>
