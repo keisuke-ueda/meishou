@@ -8,36 +8,31 @@ Template Name: 空調工事
 <main class="text-light container animate__animated animate__fadeInUpBig animate__delay-2s">
   <h2 class="article-title text-center mt-3">空調工事</h2>
   <div class="col-md-8 mx-auto border mt-5">
-    <img src="<?php echo get_template_directory_uri();?>/img/床工事1.png" class="mx-auto d-block" width="80%" />
+    <img src="<?php echo get_template_directory_uri();?>/img/空調.png" class="mx-auto d-block" width="80%" />
   </div>
 
   <article class="article">
       <div class="col-md-8 mx-auto mt-3">
-        <h5 class="mb-5">床は単に綺麗なカーペットや、塩ビタイルなどを貼るだけではありません<br>
-        床下配線を可能にするためのOAフロアを作ることもできます<br>
-        <span class="text-warning">テナント工事では壁面に穴をあけてコンセントを埋め込めない</span>こともあるので、そんな時に<br>
-        配線やコンセントが目立たないようにしたいときにはオススメです</h5>
+        <h5 class="mb-5">春夏秋冬快適に過ごすためには空調管理が大切です<br>
+        空調機にもいろんな種類があるのはご存じでしたか？<br>
+        空調機のサイズは<span class="text-warning">単に床面積(畳数)だけで選定すると失敗することも</span>あるので、心配なときはご相談下さい</h5>
       </div>
 
       <div class="col-md-8 mx-auto border mt-5">
-        <h5 class="text-center mt-3">OAフロア</h5>
-        <img src="<?php echo get_template_directory_uri();?>/img/OAフロア.png" class="mx-auto d-block mb-2  " width="70%"/>
+        <h5 class="text-center mt-3">壁掛けエアコン</h5>
+        <img src="<?php echo get_template_directory_uri();?>/img/壁掛けエアコン.png" class="mx-auto d-block mb-2  " width="70%"/>
       </div>
       <div class="col-md-8 mx-auto border mt-5">
-        <h5 class="text-center mt-3">木彫調タイル</h5>
-        <img src="<?php echo get_template_directory_uri();?>/img/木彫タイル.png" class="mx-auto d-block mb-2  " width="70%"/>
+        <h5 class="text-center mt-3">天吊りエアコン</h5>
+        <img src="<?php echo get_template_directory_uri();?>/img/天吊りエアコン.png" class="mx-auto d-block mb-2  " width="70%"/>
       </div>
       <div class="col-md-8 mx-auto border mt-5">
-        <h5 class="text-center mt-3">タイルカーペット</h5>
-        <img src="<?php echo get_template_directory_uri();?>/img/タイルカーペット.png" class="mx-auto d-block mb-2  " width="70%"/>
+        <h5 class="text-center mt-3">アネモ吹出し口</h5>
+        <img src="<?php echo get_template_directory_uri();?>/img/アネモ.png" class="mx-auto d-block mb-2  " width="70%"/>
       </div>
       <div class="col-md-8 mx-auto border mt-5">
-        <h5 class="text-center mt-3">ルースレイタイル</h5>
-        <img src="<?php echo get_template_directory_uri();?>/img/ルースレイタイル.png" class="mx-auto d-block mb-2  " width="70%"/>
-      </div>
-      <div class="col-md-8 mx-auto border mt-5">
-        <h5 class="text-center mt-3">クッションフロア</h5>
-        <img src="<?php echo get_template_directory_uri();?>/img/クッションフロア.png" class="mx-auto d-block mb-2  " width="70%"/>
+        <h5 class="text-center mt-3">業務用エアコン</h5>
+        <img src="<?php echo get_template_directory_uri();?>/img/業務用エアコン.png" class="mx-auto d-block mb-2  " width="70%"/>
       </div>
   </article>
 </main>
