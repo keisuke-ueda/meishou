@@ -28,4 +28,5 @@ Template Name: エクステリア工事
   </article>
 </main>
 
+
    <?php get_footer();?>
