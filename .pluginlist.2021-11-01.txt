@@ -1,0 +1,38 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.10.0
+  http://backwpup.com
+  Blog Name: 明彰
+  Blog URL: http://www.meisyou.work
+  Generated on: 2021-11-01 18:40.16
+------------------------------------------------------------
+
+
+すべてのプラグインの情報:
+------------------------------
+Akismet Anti-Spam (v.4.1.12) 作者: Automattic
+	https://akismet.com/
+BackWPup (v.3.10.0) 作者: Inpsyde GmbH
+	http://backwpup.com
+Cache Clear for お名前.com (v.1.0.0) 作者: GMO Internet, Inc.
+	
+Contact Form 7 (v.5.5.2) 作者: Takayuki Miyoshi
+	https://contactform7.com/
+SiteGuard WP Plugin (v.1.6.0) 作者: JP-Secure
+	http://www.jp-secure.com/cont/products/siteguard_wp_plugin/index_en.html
+TS Webfonts for お名前.com (v.2.0.2) 作者: GMO Internet, Inc.
+	https://wordpress.org/plugins/ts-webfonts-for-onamae/
+WP Multibyte Patch (v.2.9) 作者: Seisuke Kuraishi
+	https://eastcoder.com/code/wp-multibyte-patch/
+
+有効なプラグイン:
+------------------------------
+BackWPup
+Cache Clear for お名前.com
+Contact Form 7
+
+停止中のプラグイン:
+------------------------------
+Akismet Anti-Spam
+SiteGuard WP Plugin
+TS Webfonts for お名前.com
+WP Multibyte Patch

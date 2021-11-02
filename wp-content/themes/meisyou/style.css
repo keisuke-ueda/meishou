@@ -1,0 +1,200 @@
+/*
+Theme Name:明彰
+*/
+
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 200px;
+    margin: auto;
+  }
+}
+
+.navbar-nav {
+  z-index: 100;
+}
+
+.carousel {
+  height: 200px;
+  margin: auto;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+}
+
+.carousel img {
+  position: absolute;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .carousel,
+  .carousel .carousel-item,
+  .carousel .carousel-item-mask,
+  .carousel-inner .carousel-item .carousel-item-mask img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel,
+  .carousel .carousel-item,
+  .carousel .carousel-item-mask,
+  .carousel-inner .carousel-item .carousel-item-mask img {
+    height: 400px;
+  }
+}
+
+.list-group a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-group li {
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.btn--dark,
+a.btn--dark {
+  color: black;
+  background-color: #fff;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: black;
+  background: #fff;
+}
+
+a.btn--radius {
+  border-radius: 100vh;
+}
+
+.btn {
+  margin-left: 5px;
+  color: black;
+  background-color: #fff;
+  border: black;
+}
+
+.contact_box {
+  width: 30%;
+  margin: 5% auto;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+.contact_box form {
+  margin: 3%;
+}
+.contact_box p {
+  font-weight: normal;
+}
+.contact_box .required {
+  color: red;
+}
+.contact_box dd.error {
+  padding: 0;
+  color: red;
+  font-size: 1rem;
+}
+.contact_box input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+.contact_box textarea {
+  resize: none;
+  width: 100%;
+  height: 33vh;
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+.contact_box button {
+  color: white;
+  background-color: rgb(215, 4, 102);
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px 2.5px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .contact_box {
+    width: 80%;
+  }
+}
+
+.company {
+  width: 100%;
+}
+
+.company th,
+.company td {
+  color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.company th {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .company,
+  .company tr,
+  .company td,
+  .company th {
+    display: block;
+  }
+  .company th {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.tel {
+  height: 30px;
+  width: 30px;
+}
+
+h5 {
+  line-height: 2rem;
+}
+
+.design {
+  text-decoration: none;
+}
+
+.list-group {
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_logo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
