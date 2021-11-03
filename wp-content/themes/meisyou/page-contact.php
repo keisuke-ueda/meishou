@@ -10,5 +10,5 @@ Template Name: コンタクトフォーム
     <h1>お問い合わせフォーム</h1>
 </div>
 <div class="contact_box">
-<?php echo do_shortcode('[contact-form-7 id="42" title="contact form"]'); ?>
+    <?php echo do_shortcode('[contact-form-7 id="42" title="contact form"]'); ?>
 </div>

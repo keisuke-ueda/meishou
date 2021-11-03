@@ -78,8 +78,8 @@
                 移転について
               </a>
               <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/short_transfer">・近距離移転</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/long_transfer">・中長距離移転</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/short_transfer">近距離移転</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/long_transfer">中・長距離移転</a></li>
               </ul>
             </li>
             <li class="col-md-3 nav-item dropdown border-start">
@@ -94,14 +94,14 @@
                 内装工事
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/partition">・間仕切り工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/weak_electric">・弱電工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/lighting">・照明工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/net">・ネット工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/floor">・床工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/air_conditioning">・空調工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/blind">・ブラインド工事</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/exterior">・エクステリア工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/partition">間仕切り工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/weak_electric">弱電工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/lighting">照明工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/net">ネット工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/floor">床工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/air_conditioning">空調工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/blind">ブラインド工事</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/exterior">エクステリア工事</a></li>
               </ul>
             </li>
                <li class="col-md-4 px-1 nav-item dropdown border-start">
@@ -112,7 +112,7 @@
                 role="button"
                 data-bs-toggle=""
               >
-                  現状回復工事
+                  原状回復工事
               </a>
             </li>
             <li class="col-md-3 nav-item dropdown border-start">
@@ -127,9 +127,9 @@
                 家具販売
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/order_made">・オーダーメイド</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/maker_product">・メーカー品</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/special_price">・格安家具</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/order_made">オーダーメイド</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/maker_product">メーカー品</a></li>
+                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/special_price">格安家具</a></li>
               </ul>
             </li>
           </ul>
