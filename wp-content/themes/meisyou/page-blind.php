@@ -3,7 +3,7 @@
 Template Name: ブラインド工事
 */
 ?>
-   <?php get_header(); ?>
+<?php get_header(); ?>
 
 <main class="text-light container animate__animated animate__fadeInUpBig animate__delay-2s">
   <h2 class="article-title text-center mt-3">ブラインド工事</h2>
@@ -40,4 +40,4 @@ Template Name: ブラインド工事
   </article>
 </main>
 
-   <?php get_footer();?>
+<?php get_footer();?>
