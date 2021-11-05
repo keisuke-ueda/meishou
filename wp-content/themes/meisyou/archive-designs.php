@@ -47,6 +47,6 @@ Template Name: デザインページ
     <?php
       wp_reset_postdata();
     endif; ?>
-    
+
   </main>
 <?php get_footer(); ?>

@@ -1,5 +1,6 @@
-<?php get_header(); ?>
-  <body>
+<!-- このページは使用しません。 -->
+<!-- <-->
+  <!-- <body>
     <main class="container">
         <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
           <ol class="carousel-indicators">
@@ -9,8 +10,8 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-              <a href="<?php bloginfo('url')?>/topic">
-             <img src="<?php echo get_template_directory_uri();?>/img/sample2.jpg" class="d-block w-100" alt="..." />
+              <a href="/topic">
+             <img src="/img/sample2.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h1>最新トピック</h1>
                 <p>施工実績</p>
@@ -18,14 +19,14 @@
               </a>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-              <img src="<?php echo get_template_directory_uri();?>/img/sample4.jpg" class="d-block w-100" alt="..." />
+              <img src="img/sample4.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h1>最新トピック</h1>
                 <p>施工実績</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-              <img src="<?php echo get_template_directory_uri();?>/img/sample3.jpg" class="d-block w-100" alt="..." />
+              <img src="/img/sample3.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h1>最新トピック</h1>
                 <p>施工実績</p>
@@ -43,5 +44,5 @@
         </div>
         <div></div>
       </main>
-  </body>
-<?php get_footer(); ?>
+  </body> -->
+ <!-- < -->
