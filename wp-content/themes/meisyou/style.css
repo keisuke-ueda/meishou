@@ -198,3 +198,16 @@ h5 {
   display: flex;
   justify-content: center;
 }
+
+.thumb {
+  text-align: center;
+}
+
+article a {
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
