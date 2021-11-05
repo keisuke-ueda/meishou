@@ -15,6 +15,8 @@ function create_post_design() {
   $exampleSupports = [  // supports のパラメータを設定する配列
     'title',  // 記事タイトル
     'editor',  // 記事本文
+
+
     'thumbnail',  // アイキャッチ画像
     'revisions'  // リビジョン
   ];
