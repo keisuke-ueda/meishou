@@ -129,7 +129,6 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="<?php bloginfo('url')?>/order_made">オーダーメイド</a></li>
                 <li><a class="dropdown-item" href="<?php bloginfo('url')?>/maker_product">メーカー品</a></li>
-                <li><a class="dropdown-item" href="<?php bloginfo('url')?>/special_price">格安家具</a></li>
               </ul>
             </li>
           </ul>
